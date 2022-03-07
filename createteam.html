@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREATE Team</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container text-light">
+        <H1> THIS IS UNDER PROGRESS SORRY</H1>
+
+        <h1 class="text-center my-5 fw-bold">createam</h1>
+        <div class="form-container">
+            <form action="submit.php" method="POST" enctype="multipart/form-data">
+                <input type="hidden" name="token" value="HGsZOXpfNC">
+                <div class="border border-dark p-3 mb-3">
+                    <h2>team icon</h2>
+                    <div class="mb-3">
+                        <label class="form-label">Select a square image 1:1 (Recommended)</label>
+                        <input class="form-control" name="profile_image" type="file" required>
+                    </div>
+                </div>
+                <div class="border border-dark p-3 mb-3">
+
+                    <div class="d-flex justify-content-between mb-3">
+                        <div>
+                            <label class="form-label"> Team Name</label>
+                            <input type="text" name="first_name" class="form-control" required>
+                        </div>
+
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">descrption</label>
+                        <input type="text" class="form-control" name="profession" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">playing status</label>
+                        <input type="text" class="form-control" name="profession" required>
+                    </div>
+                    <!-- <div class="mb-3">
+                        <label class="form-label">Email address</label>
+                        <input type="email" class="form-control" name="email" required>
+                        <div class="form-text text-light">We'll never share your email with anyone else.</div>
+                    </div> -->
+                    <div class="mb-3">
+                        <label class="form-label">price</label>
+                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="0300-1234567">
+                        <!-- pattern=" " required -->
+                    </div>
+                </div>
+                <br>
+                <br>
+                <h2> top batsman</h2>
+                <div>
+                    <div class="mb-3">
+                        <label class="form-label">Select a square image 1:1 (Recommended)</label>
+                        <input class="form-control" name="profile_image" type="file" required>
+                    </div>
+                    <label class="form-label">name of bats man </label>
+                    <input type="text" name="last_name" class="form-control" required>
+                </div>
+                <h2> top b0wler</h2>
+                <div>
+                    <div class="mb-3">
+                        <label class="form-label">Select a square image 1:1 (Recommended)</label>
+                        <input class="form-control" name="profile_image" type="file" required>
+                    </div>
+                    <label class="form-label">name of bolwer man </label>
+                    <input type="text" name="last_name" class="form-control" required>
+                </div>
+
+                <input type="submit" class="form-control my-2">
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <style>
+        .form-container {
+            max-width: 768px;
+            margin: 10px auto;
+            padding: 30px;
+            border: 1px solid black;
+        }
+
+        body {
+            background: #74be56;
+        }
+    </style>
+</body>
+
+</html>

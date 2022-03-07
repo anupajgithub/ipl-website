@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="flashcard.png" />
+    <link rel="stylesheet" href="home.css">
+    <title>ipl JUST FUN</title>
+</head>
+
+<body>
+
+    <main>
+
+        <header>
+            <div class="container">
+                <div id="header">
+                    <h1>ipl</h1>
+                    <div>
+                        <button id="show_card_box">CLICK ADD A TEAM</button>
+                        <button id="delete_cards">Del Team</button>
+                    </div>
+                    <!-- <div id="navlist"> -->
+                    <a href="home.html">home</a>
+
+                    <a href="#container">teams</a>
+                    <a href="https://www.cricbuzz.com/cricket-news">news</a>
+                    <a href="https://www.cricbuzz.com/cricket-match/live-scores">live score</a>
+                    <a href="createplayer.html">create player</a>
+
+                    <!-- <a href="createteam.html">create team</a> -->
+                    <div class="search">
+                        <form action="#">
+
+                            <input type="search" id="search" value="team name search also name dhoni viru bhai" onchange="ouvrirPage()">
+                            <input type="button" id="button" onclick="ouvrirPage()" value="search">
+
+                        </form>
+                    </div>
+                    <script>
+                   
+                        function ouvrirPage() {
+                            var a = document.getElementById("search").value;
+                
+                            if (a === "mi") {
+                                window.location.href="mi.html"
+                            }
+                            if (a === "csk") {
+                                window.location.href="csk.html"
+                            }
+                            if (a === "dhoni") {
+                                window.location.href="csk.html"
+                            }
+                            if (a === "Ahmedabad") {
+                                window.location.href="Ahmedabad.html"
+                            }
+                            if (a === "kkr") {
+                                window.location.href="kkr.html"
+                            }
+                            if (a === "pbks") {
+                                window.location.href="pbks.html"
+                            }
+                            if (a === "rcb") {
+                                window.location.href="rcb.html"
+                            }
+                            if (a === "Viru bhai") {
+                                window.location.href="rcb.html"
+                            }
+                            if (a === "rr") {
+                                window.location.href="rr.html"
+                            }
+                            if (a === "srh") {
+                                window.location.href="srh.html"
+                            }
+                            if (a === "lucknow") {
+                                window.location.href="lucknow.html"
+                            }
+                            if (a === "dl") {
+                                window.location.href="dl.html"
+                            }
+                
+                           
+                
+                
+                        }
+                                </script>
+
+                </div>
+
+        </header>
+        <section>
+            <div class="container">
+                <div id="create_card">
+                    <h2>Create Flashcard</h2>
+                    <label class="form-label">Select a square image 1:1 (Recommended)</label>
+                    <input class="form-control" name="profile_image" type="file" required>
+                    <label for="question">team name</label>
+                    <textarea id="question" maxlength="280"></textarea>
+                    <label for="question1">team  co.founder</label>
+                    <textarea id="question1" maxlength="280"></textarea>
+                    <label for="question2">details</label>
+                    <textarea id="question2" maxlength="280"></textarea>
+                    <label for="answer" maxlength="280"> click the card show desc
+                        team details page not avalible
+                    </label>
+                    <br>
+                    <textarea id="answer"></textarea>
+                    <div>
+                        <button id="save_card">Save</button> <button id="close_card_box">Close</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <div class="home" id="home">
+
+            <div class="content">
+                <h3>IPL made with love</h3>
+                <p>The Indian Premier League (IPL) is a professional men's Twenty20 cricket league,
+                    <br> contested by ten teams based out of ten Indian cities
+                </p>
+
+            </div>
+
+            <div class="image">
+                <image
+                    src="https://cricketaddictor.com/wp-content/uploads/2021/03/IPL-2021-Schedule-Tickets-Auction-Teams-Venue-Starting-Date.jpg"
+                    alt="">
+            </div>
+
+        </div>
+
+
+        <div class="container">
+            <div class="team_container">
+                <div class="text">Meet Our Team</div>
+            </div>
+            <div class="row">
+
+                <!-- First User design starts here -->
+                <div style="background: linear-gradient(180deg, #FCCA06 0%, #F25C19 100%); border: 2px solid #F25C19"
+                    class="profile-card">
+                    <a href="csk.html" class="dl">
+                        <div class="profile-content">
+                            <div class="profile-image"><img
+                                    src="https://wallpapercave.com/wp/wp2496940.jpg"
+                                    alt="">
+                            </div>
+                            <br>
+                            <div class="desc">
+                                <h3>Chennai Super <br>Kings</h3>
+                                <br>
+                                <p>M. A. Chidambaram Stadium</p>
+                            </div>
+                            <br>
+                            <div class="btn-div">
+                                <button class="btn"><i class="team" style="padding-right: 10px;"></i>Details</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!--First user design ends here-->
+                <!--second User design starts here-->
+                <div style="background: linear-gradient(180deg, #0078BC 0%, #17479E 100%); border: 2px solid #17479E"
+                    class="profile-card">
+                    <a href="dl.html" class="dl">
+                        <div class="profile-content">
+                            <div class="profile-image"><img
+                                    src="https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/DC/Logos/Roundbig/DCroundbig.png"
+                                    alt="">
+                            </div>
+                            <br>
+                            <div class="desc">
+                                <h3>Delhi <br>Capitals</h3>
+                                <p>Arun Jaitley Stadium</p>
+                                <br>
+                            </div>
+                                <div class="btn-div">
+                                <button class="btn"><i class="team" style="padding-right: 10px;"></i>Details</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!--second user design ends here-->
+                <!--third User design starts here-->
+                <div style="background: linear-gradient(180deg, #315079 0%, #102949 100%); border: 2px solid #102949"
+                    class="profile-card">
+                    <a href="kkr.html" class="kkr">
+                        <div class="profile-content">
+                            <div class="profile-image">
+                                <img src="https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/GT/Logos/Roundbig/GTroundbig.png"
+                                    alt="">
+                            </div>
+                            <br>
+                            <div class="desc">
+                                <h3>Gujarat <br>Titans</h3>
+                                <p>Narendra Modi Stadium</p>
+                            </div>
+                            <br>
+                            <div class="btn-div">
+                                <button class="btn"><i class="team" style="padding-right: 10px;"></i>Details</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!--third user design ends here-->
+                <!--fourth User design starts here-->
+                <div style="background: linear-gradient(180deg, #3B215D 0%, #552792 100%); border: 2px solid #552792"
+                    class="profile-card">
+                    <a href="kkr.html" class="kkr">
+                        <div class="profile-content">
+                            <div class="profile-image">
+                                <img src="https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/KKR/Logos/Roundbig/KKRroundbig.png"
+                                    alt="">
+                            </div>
+                            <br>
+                            <div class="desc">
+                                <h3>Kolkata Knight <br>Riders</h3>
+                                <p>Eden Gardens</p>
+                            </div>
+                            <br>
+                            <div class="btn-div">
+                                <button class="btn"><i class="team" style="padding-right: 10px;"></i>Details</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!--fourth user design ends here-->
+                <!--Fifth User design starts here-->
+                <div style="background: linear-gradient(180deg, #A72056 0%, #FFCC00 100%); border: 2px solid #FFCC00"
+                    class="profile-card">
+                    <a href="Lucknow.html" class="Lucknow">
+                        <div class="profile-content">
+                            <div class="profile-image">
+                                <img src="https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/LSG/Logos/Roundbig/LSGroundbig.png"
+                                    alt="">
+                            </div>
+                            <br>
+                            <div class="desc">
+                                <h3>Lucknow Super <br>Giants</h3>
+                                <p>BRSABV Ekana Cricket Stadium</p>
+                            </div>
+                            <br>
+                            <div class="btn-div">
+                                <button class="btn"><i class="team" style="padding-right: 10px;"></i>Details</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!--Fifth user design ends here-->
+                <!--six User design starts here-->
+                <div style="background: linear-gradient(180deg, #006CB7 0%, #003B7A 100%); border: 2px solid #003B7A"
+                    class="profile-card">
+                    <a href="mi.html" class="mi">
+                        <div class="profile-content">
+                            <div class="profile-image">
+                                <img src="https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/MI/Logos/Roundbig/MIroundbig.png"
+                                    alt="">
+                            </div>
+                            <br>
+                            <div class="desc">
+                                <h3>Mumbai <br>Indians</h3>
+                                <p>Wankhede Stadium</p>
+                            </div>
+                            <br>
+                            <div class="btn-div">
+                                <button class="btn"><i class="team" style="padding-right: 10px;"></i>Details</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!--six user design ends here-->
+                <div style="background: linear-gradient(180deg, #D71920 0%, #84171B 100%); border: 2px solid #84171B"
+                    class="profile-card">
+                    <a href="PBKS .html" class="PBKS">
+                        <div class="profile-content">
+                            <div class="profile-image">
+                                <img src="https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/PBKS/Logos/Roundbig/PBKSroundbig.png"
+                                    alt="">
+                            </div>
+                            <br>
+                            <div class="desc">
+                                <h3>Punjab <br>Kings</h3>
+                                <p>IS Bindra Stadium</p>
+                            </div>
+                            <br>
+                            <div class="btn-div">
+                                <button class="btn"><i class="team" style="padding-right: 10px;"></i>Details</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div style="background: linear-gradient(180deg, #EA1A85 0%, #001D48 100%); border: 2px solid #001D48"
+                    class="profile-card">
+                    <a href="rr.html" class="rr">
+                        <div class="profile-content">
+                            <div class="profile-image">
+                                <img src="https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/RR/Logos/Roundbig/RRroundbig.png"
+                                    alt="">
+                            </div>
+                            <br>
+                            <div class="desc">
+                                <h3>Rajasthan <br>Royals</h3>
+                                <p>Sawai Mansingh Stadium</p>
+                            </div>
+                            <br>
+                            <div class="btn-div">
+                                <button class="btn"><i class="team" style="padding-right: 10px;"></i>Details</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div style="background: linear-gradient(180deg, #6A6A6A 0%, #1C1C1C 100%); border: 2px solid #1C1C1C"
+                    class="profile-card">
+                    <a href="rcb.html" class="rcb">
+                        <div class="profile-content">
+                            <div class="profile-image">
+                                <!-- <img src="images/girl6.jpg" alt="first user"> -->
+                                <img src="https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/RCB/Logos/Roundbig/RCBroundbig.png"
+                                    alt="">
+                            </div>
+                            <br>
+                            <div class="desc">
+                                <!-- <h2>Sunmetecha</h2>
+                                    <p>Lorem ipsum dolor sit amet adipisicing elit. </p> -->
+                                <h3>Royal Challengers <br>Bangalore</h3>
+                                <p>M. Chinnaswamy Stadium</p>
+                            </div>
+                            <br>
+                            <div class="btn-div">
+                                <button class="btn"><i class="team" style="padding-right: 10px;"></i>Details</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div style="background: linear-gradient(180deg, #F26522 0%, #ED1A37 100%); border: 2px solid #ED1A37"
+                    class="profile-card">
+                    <a href="srh.html" class="srh">
+                        <div class="profile-content">
+                            <div class="profile-image">
+                                <!-- <img src="images/girl6.jpg" alt="first user"> -->
+                                <img src="https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/SRH/Logos/Roundbig/SRHroundbig.png"
+                                    alt="">
+                            </div>
+                            <br>
+                            <div class="desc">
+                                <!-- <h2>Sunmetecha</h2>
+                                    <p>Lorem ipsum dolor sit amet adipisicing elit. </p> -->
+                                <h3>Sunrisers <br>Hyderabad</h3>
+                                <p>Rajiv Gandhi Intl. Cricket Stadium</p>
+                            </div>
+                            <br>
+                            <div class="btn-div">
+                                <button class="btn"><i class="team" style="padding-right: 10px;"></i>Details</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <div class="container">
+                        <div id="flashcards">
+                            <!-- <div id="x"></div> -->
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <script src="home.js"></script>
+    <!-- <script>
+        var img = document.createElement("img");
+        img.src = "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/CSK/logos/Roundbig/CSKroundbig.png";
+    
+        var div = document.getElementById("x");
+        div.appendChild(img);
+        </script> -->
+</body>
+
+</html>

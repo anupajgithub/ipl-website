@@ -1,0 +1,271 @@
+.body{
+    margin:0;
+    padding:0;
+    /* background-color: #dad9d9ea;
+    font-family: sans-serif; */
+  } 
+  
+  #navlist {
+    background-color: #0074D9;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+      
+/* styling navlist anchor element */
+#navlist a {
+    float:left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 15px;
+}
+  
+.navlist-right{
+    float:right;
+}
+
+/* hover effect of navlist anchor element */
+#navlist a:hover {
+    background-color: #ddd;
+    color: black;
+}
+      
+/* styling search bar */
+.search input[type=text]{
+    width:300px;
+    height:25px;
+    border-radius:25px;
+    border: none;
+}
+      
+.search{
+    float:right;
+    margin:7px;
+}
+      
+.search button{
+    background-color: #ebeef1;
+    color: #742a2a;
+    float: right;
+    padding: 5px 10px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+} 
+
+/* #p1{
+    font-size: 40px;
+    gap: 2.5px;
+    padding: 40px;
+    position: absolute;
+    width: 100%;
+    /* width: 100px; */
+    /* font-family: cursive;
+    text-shadow: 2px 4px yellowgreen;
+    text-align: center;
+    background-image: linear-gradient(to right , rgb(23, 91, 131),rgb(25, 133, 58));} */
+  */
+#p2{
+    font-size: 30px;
+    font-family: cursive;
+    text-shadow: 2px 2px rgb(30, 90, 255);
+    text-align: center;
+}
+#p3{
+    font-size: 30px;
+    font-family: cursive;
+    text-shadow: 2px 2px rgb(255, 0, 0);
+    text-align: center;   
+}
+#p4{
+    font-size: 30px;
+    font-family: cursive;
+    text-shadow: 2px 4px rgb(30, 255, 0);
+}
+.c2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.c1{
+    border: 3px solid rgb(0, 0, 0);
+    background-image: linear-gradient(to left ,orange , red);
+}
+.c1:hover{
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+#p6{
+    width: 156px;
+   height: auto;
+    margin-right: 15px;
+    border: 3px solid black;
+}
+#p6:hover{
+    -moz-box-shadow: 0 0 20px rgb(0, 0, 0);
+    -webkit-box-shadow: 0 0 20px rgb(0, 0, 0);
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+#p7{
+    -webkit-transform: rotate(15deg) scale(1.4);
+    transform: rotate(15deg) scale(1.4);
+    -webkit-transition: 3s ease-in-out;
+    transition: .3s ease-in-out;
+
+}
+#p7:hover{
+    -webkit-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
+}
+
+
+*{box-sizing: border-box; font-family: "Open Sans", sans-serif; margin: 0;
+
+padding: 0;
+
+}
+
+body {
+
+color: var(--clr-gray);
+
+margin: 2rem;
+
+}
+
+.c2 {
+
+display: grid;
+
+grid-template-columns: repeat(auto-fit, 20rem); justify-content: center;
+
+}
+
+.container {
+    
+
+overflow: hidden;
+
+box-shadow: 0px 2px 8px 0px var(--clr-gray
+
+light);
+
+text-align: center;
+
+background-color: rgb(250, 250, 246); border: radius 1px;; position: relative; 
+
+}
+.banner-img {
+
+position: absolute;
+
+background-image:
+
+url(https://cricketaddictor.com/wp-content/uploads/2021/03/IPL-2021-Schedule-Tickets-Auction-Teams-Venue-Starting-Date.jpg); 
+
+height: 10rem; 
+width: 100%;
+
+background-position: center; 
+background-repeat: no-repeat;
+
+background-size: cover;
+
+}
+
+.profile-img {
+
+width: 8rem;
+
+clip-path: circle(60px at center);
+
+margin-top:
+
+4.5rem;
+
+}
+
+.name {
+
+font-weight: bold;
+
+font-size: 1.5em;
+
+}
+
+.description {
+
+margin: 1rem 2rem; font-size: 0.9rem;
+
+}
+
+.btn {
+
+width: 100%;
+border: navy;
+
+font-size: 1rem;
+font-weight: bold;
+color: rgb(10, 132, 240);
+padding: 1rem;
+border: navy;; font-weight: bold; background-color: var(--clr-primary); 
+}
+
+.playercard {
+    width: 305px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+
+/* about section styling  for player details*/
+.about .title::after{
+    content: "who i am";
+}
+.about .about-content .left{
+    width: 45%;
+}
+.about .about-content .left img{
+    height: 500px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.about .about-content .right{
+    width: 55%;
+}
+.about .about-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about .about-content .right .text span{
+    color: crimson;
+}
+.about .about-content .right p{
+    text-align: justify;
+}
+.about .about-content .right a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.about .about-content .right a:hover{
+    color: crimson;
+    background: none;
+}
